@@ -1,0 +1,2694 @@
+1652517626266	geckodriver	INFO	Listening on 127.0.0.1:36789
+1652517626767	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRU3TQH"
+Error: no DISPLAY environment variable specified
+1652517638984	geckodriver	INFO	Listening on 127.0.0.1:37881
+1652517638991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56847" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKdJWzq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652517639686	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKdJWzq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56847/devtools/browser/04529c1c-4477-491a-b2a0-021ec959de03
+1652517641465	Marionette	INFO	Listening on port 33855
+Read port: 33855
+1652517641525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652517892612	geckodriver	INFO	Listening on 127.0.0.1:49449
+1652517892619	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58457" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJQoRGe"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652517893090	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJQoRGe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58457/devtools/browser/a3910ba4-12e8-479d-bf6f-c38b23c535d7
+1652517894567	Marionette	INFO	Listening on port 45261
+Read port: 45261
+1652517894653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652517903170	Marionette	INFO	Stopped listening on port 45261
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652517958110	geckodriver	INFO	Listening on 127.0.0.1:36639
+1652517958116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekplpCg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652517958580	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekplpCg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42265/devtools/browser/eed90d22-7d0d-4085-a8a6-6ad25454dd2f
+1652517960099	Marionette	INFO	Listening on port 35975
+Read port: 35975
+1652517960189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652517968362	Marionette	INFO	Stopped listening on port 35975
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652518004286	geckodriver	INFO	Listening on 127.0.0.1:40331
+1652518004795	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilespWhLT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518005271	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilespWhLT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42783/devtools/browser/22670501-1d6e-4a78-8d90-35eb02841733
+1652518006706	Marionette	INFO	Listening on port 43791
+Read port: 43791
+1652518006827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652518006857	geckodriver	INFO	Listening on 127.0.0.1:58651
+1652518007364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemMxEzx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518007840	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemMxEzx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55797/devtools/browser/addfbd8a-b8c5-4d12-8fc6-297cdd4e3f01
+1652518009319	Marionette	INFO	Listening on port 44527
+Read port: 44527
+1652518009412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652518017723	Marionette	INFO	Stopped listening on port 44527
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652518089040	geckodriver	INFO	Listening on 127.0.0.1:44537
+1652518089047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileP7rHkQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518089544	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileP7rHkQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58971/devtools/browser/f1c24a97-675f-4795-8878-14e263895abd
+1652518091148	Marionette	INFO	Listening on port 41975
+Read port: 41975
+1652518091227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652518091263	geckodriver	INFO	Listening on 127.0.0.1:51347
+1652518091771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqM7rxE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518092216	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqM7rxE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33163/devtools/browser/8d116df0-4611-4b3e-86a5-6958b458ef5c
+1652518093649	Marionette	INFO	Listening on port 37187
+Read port: 37187
+1652518093713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652518102101	Marionette	INFO	Stopped listening on port 37187
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652518198899	geckodriver	INFO	Listening on 127.0.0.1:44795
+1652518198906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiOChi6"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518199363	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiOChi6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41183/devtools/browser/be7fd42d-3da4-4e2d-a0f1-f27321be6554
+1652518200696	Marionette	INFO	Listening on port 39101
+Read port: 39101
+1652518200729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652518200762	geckodriver	INFO	Listening on 127.0.0.1:45125
+1652518201270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35229" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegIN6WD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518201741	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegIN6WD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35229/devtools/browser/41518992-09bd-4fd7-9c67-1d94a125f21d
+1652518203033	Marionette	INFO	Listening on port 40285
+Read port: 40285
+1652518203098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652518211324	Marionette	INFO	Stopped listening on port 40285
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652518582447	geckodriver	INFO	Listening on 127.0.0.1:34447
+1652518582956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54309" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqW5UA3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518583398	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqW5UA3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54309/devtools/browser/eef1a9b7-c3ae-4fda-bc71-c2bfb07f3596
+1652518584788	Marionette	INFO	Listening on port 42813
+Read port: 42813
+1652518584886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652518584919	geckodriver	INFO	Listening on 127.0.0.1:52121
+1652518585427	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55615" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7cbeDJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518585911	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7cbeDJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55615/devtools/browser/dfecae55-f420-461e-ba49-5780fb759682
+1652518587348	Marionette	INFO	Listening on port 42211
+Read port: 42211
+1652518587471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652518595627	Marionette	INFO	Stopped listening on port 42211
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652518889970	geckodriver	INFO	Listening on 127.0.0.1:60971
+1652518889976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35433" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewfVYRZ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518890422	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewfVYRZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35433/devtools/browser/c91f32df-4be5-446f-86a9-501f7718673a
+1652518892112	Marionette	INFO	Listening on port 39315
+Read port: 39315
+1652518892213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652518892242	geckodriver	INFO	Listening on 127.0.0.1:57183
+1652518892750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40693" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileW8LyCm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652518893227	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW8LyCm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40693/devtools/browser/7b719c33-15a2-4e5a-9f82-bfeed8c30393
+1652518894818	Marionette	INFO	Listening on port 39673
+Read port: 39673
+1652518894881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652518902930	Marionette	INFO	Stopped listening on port 39673
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652519000659	geckodriver	INFO	Listening on 127.0.0.1:46681
+1652519001167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5Yc1tU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519001631	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5Yc1tU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49819/devtools/browser/00a3d0b9-6ec8-40e4-9bd7-e16abea2c8d1
+1652519003053	Marionette	INFO	Listening on port 39843
+Read port: 39843
+1652519003097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652519003129	geckodriver	INFO	Listening on 127.0.0.1:46643
+1652519003637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "57867" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSFgvK4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519004106	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSFgvK4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57867/devtools/browser/b3994677-f3de-436a-bfe8-48dd1ef584b8
+1652519005506	Marionette	INFO	Listening on port 45419
+Read port: 45419
+1652519005603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652519013827	Marionette	INFO	Stopped listening on port 45419
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652519190816	geckodriver	INFO	Listening on 127.0.0.1:49331
+1652519190823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilef6RVNN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519191226	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef6RVNN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43669/devtools/browser/cd25ee08-f54d-40c5-85fa-a90b9c4b3101
+1652519192541	Marionette	INFO	Listening on port 44173
+Read port: 44173
+1652519192668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652519192701	geckodriver	INFO	Listening on 127.0.0.1:46331
+1652519193209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42461" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBcibOH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519193649	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBcibOH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42461/devtools/browser/6dc0508b-48e6-49c7-a3b8-23e8f73e45ad
+1652519194963	Marionette	INFO	Listening on port 42307
+Read port: 42307
+1652519195037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652519203269	Marionette	INFO	Stopped listening on port 42307
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652519228167	geckodriver	INFO	Listening on 127.0.0.1:34705
+1652519228174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebZQD2F"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519228561	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebZQD2F/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33505/devtools/browser/74cc6d81-f33d-48f6-bd92-0c5194b84997
+1652519229852	Marionette	INFO	Listening on port 33999
+Read port: 33999
+1652519229902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652519229934	geckodriver	INFO	Listening on 127.0.0.1:41119
+1652519230442	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFgxk3S"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519230851	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFgxk3S/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35795/devtools/browser/bfd5978d-6f66-4fa1-8513-1134f01d5f87
+1652519232128	Marionette	INFO	Listening on port 39081
+Read port: 39081
+1652519232171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652519240178	Marionette	INFO	Stopped listening on port 39081
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652519245874	geckodriver	INFO	Listening on 127.0.0.1:55723
+1652519245882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5rjfFR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519246337	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5rjfFR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55419/devtools/browser/fa753877-fbe3-4f7c-95ae-8e6842b2279c
+1652519247966	Marionette	INFO	Listening on port 45129
+Read port: 45129
+1652519248038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652519248074	geckodriver	INFO	Listening on 127.0.0.1:41759
+1652519248582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51639" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2f8PuO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519249024	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2f8PuO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51639/devtools/browser/212497bc-1f3a-4b00-a1c1-7d97c546404c
+1652519250620	Marionette	INFO	Listening on port 37565
+Read port: 37565
+1652519250717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652519259013	Marionette	INFO	Stopped listening on port 37565
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652519294232	geckodriver	INFO	Listening on 127.0.0.1:32951
+1652519294242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea8ATup"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519294715	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea8ATup/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42673/devtools/browser/3325cc18-b753-42d3-9f65-c98af900e115
+1652519296255	Marionette	INFO	Listening on port 38943
+Read port: 38943
+1652519296377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652519296432	geckodriver	INFO	Listening on 127.0.0.1:42275
+1652519296942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemWfblP"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519297434	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemWfblP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50445/devtools/browser/7f138a48-703d-4e09-94d1-8c177a10cf47
+1652519298908	Marionette	INFO	Listening on port 41251
+Read port: 41251
+1652519298967	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652519307141	Marionette	INFO	Stopped listening on port 41251
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652519334923	geckodriver	INFO	Listening on 127.0.0.1:59847
+1652519334932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejrJBwz"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519335374	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejrJBwz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48573/devtools/browser/74d72f1d-6703-4760-89d7-241c5026898d
+1652519336651	Marionette	INFO	Listening on port 40039
+Read port: 40039
+1652519336759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652519336822	geckodriver	INFO	Listening on 127.0.0.1:56461
+1652519337331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXLfoDd"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519337800	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXLfoDd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58563/devtools/browser/797caa55-19df-4abb-835e-8bf3d86c5074
+1652519339251	Marionette	INFO	Listening on port 44691
+Read port: 44691
+1652519339370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652519379988	geckodriver	INFO	Listening on 127.0.0.1:39453
+1652519379997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQG06Qv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519380489	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQG06Qv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48901/devtools/browser/6e35506c-464a-4e10-b8eb-e65e783b9d29
+1652519382083	Marionette	INFO	Listening on port 40793
+Read port: 40793
+1652519382126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652519382188	geckodriver	INFO	Listening on 127.0.0.1:39167
+1652519382696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49729" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTTtHzj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652519383181	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTTtHzj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49729/devtools/browser/e507812b-85d7-409a-8f49-309d03abe771
+1652519384592	Marionette	INFO	Listening on port 39605
+Read port: 39605
+1652519384675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652528460174	geckodriver	INFO	Listening on 127.0.0.1:60925
+1652528460183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTtN7O3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528460640	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTtN7O3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33701/devtools/browser/a9c612d6-9274-4635-9d9f-bbcde60fe67c
+1652528461929	Marionette	INFO	Listening on port 36805
+Read port: 36805
+1652528462009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652528462065	geckodriver	INFO	Listening on 127.0.0.1:36415
+1652528462573	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37247" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1NLYpU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528463051	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1NLYpU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37247/devtools/browser/3dd3096e-d1fc-44d9-8ba0-e848fd279d9b
+1652528464244	Marionette	INFO	Listening on port 45965
+Read port: 45965
+1652528464295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652528590145	geckodriver	INFO	Listening on 127.0.0.1:46821
+1652528590154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyBEAms"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528590616	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyBEAms/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58949/devtools/browser/9d0bd688-da89-4b26-84e4-abc3c5f89f3c
+1652528591770	Marionette	INFO	Listening on port 38507
+Read port: 38507
+1652528591889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652528591945	geckodriver	INFO	Listening on 127.0.0.1:56791
+1652528592454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZy9di5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528592933	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZy9di5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53813/devtools/browser/63f628a8-78ba-4e4c-be2d-c42375d4c889
+1652528594220	Marionette	INFO	Listening on port 33159
+Read port: 33159
+1652528594279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652528602505	Marionette	INFO	Stopped listening on port 33159
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652528710315	geckodriver	INFO	Listening on 127.0.0.1:38011
+1652528710823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqkuGJI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528711219	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqkuGJI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43601/devtools/browser/9748e60d-4da1-414e-8442-2b04f1ae99ea
+1652528712332	Marionette	INFO	Listening on port 36689
+Read port: 36689
+1652528712446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652528712478	geckodriver	INFO	Listening on 127.0.0.1:34519
+1652528712986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileC7TPX6"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528713401	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC7TPX6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58755/devtools/browser/5f068da8-601b-491d-ae51-d7a5c9cbdaf7
+1652528714619	Marionette	INFO	Listening on port 34891
+Read port: 34891
+1652528714709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652528723074	Marionette	INFO	Stopped listening on port 34891
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652528767999	geckodriver	INFO	Listening on 127.0.0.1:40417
+1652528768005	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9hdUUt"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528768420	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9hdUUt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47139/devtools/browser/58dbf34a-91ae-4726-966f-641e11ed62ed
+1652528769677	Marionette	INFO	Listening on port 34795
+Read port: 34795
+1652528769733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652528769764	geckodriver	INFO	Listening on 127.0.0.1:50025
+1652528770272	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecLzaVC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528770693	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecLzaVC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60473/devtools/browser/d8f8214a-4c0d-43da-b301-674459cb07f7
+1652528771918	Marionette	INFO	Listening on port 33235
+Read port: 33235
+1652528772009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652528780279	Marionette	INFO	Stopped listening on port 33235
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652528811071	geckodriver	INFO	Listening on 127.0.0.1:33767
+1652528811580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54261" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUhkxO5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528812011	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUhkxO5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54261/devtools/browser/275f67cf-073b-4527-a753-816403f43772
+1652528813267	Marionette	INFO	Listening on port 38823
+Read port: 38823
+1652528813313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652528813343	geckodriver	INFO	Listening on 127.0.0.1:47831
+1652528813851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletXtcQp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528814286	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletXtcQp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40109/devtools/browser/2fda2688-7952-4ea5-9112-4879e0421c3d
+1652528815529	Marionette	INFO	Listening on port 44707
+Read port: 44707
+1652528815574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652528823725	Marionette	INFO	Stopped listening on port 44707
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652528973495	geckodriver	INFO	Listening on 127.0.0.1:57479
+1652528973502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBytYu9"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528973923	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBytYu9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41535/devtools/browser/cece83e6-8ce6-4a06-a1bb-bf13f23343ec
+1652528975210	Marionette	INFO	Listening on port 42675
+Read port: 42675
+1652528975381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652528975411	geckodriver	INFO	Listening on 127.0.0.1:33377
+1652528975918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIgdlFe"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652528976314	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIgdlFe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34083/devtools/browser/ac5b39d0-95d9-4724-a4e7-05ab7f1aedbd
+1652528977457	Marionette	INFO	Listening on port 42903
+Read port: 42903
+1652528977540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652528985647	Marionette	INFO	Stopped listening on port 42903
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652529012331	geckodriver	INFO	Listening on 127.0.0.1:58075
+1652529012840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIi5ZPI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529013272	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIi5ZPI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47213/devtools/browser/bf461019-e468-43e2-bb3f-53959544f6d1
+1652529014682	Marionette	INFO	Listening on port 41791
+Read port: 41791
+1652529014770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652529014803	geckodriver	INFO	Listening on 127.0.0.1:35827
+1652529015311	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38603" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepp01XJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529015790	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepp01XJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38603/devtools/browser/b0eaf480-94bd-41d3-a2d1-b6bc57f1dd18
+1652529016986	Marionette	INFO	Listening on port 34563
+Read port: 34563
+1652529017033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652529025630	Marionette	INFO	Stopped listening on port 34563
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652529045755	geckodriver	INFO	Listening on 127.0.0.1:33901
+1652529046263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefdVRgI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529046696	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefdVRgI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36653/devtools/browser/cd07aa87-09b2-4194-b76a-1c7019d8d15e
+1652529048010	Marionette	INFO	Listening on port 42435
+Read port: 42435
+1652529048089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652529048120	geckodriver	INFO	Listening on 127.0.0.1:41081
+1652529048628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54623" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMdDNdR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529049052	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMdDNdR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54623/devtools/browser/d88e436a-498a-4e95-a363-a962c08a8aef
+1652529050273	Marionette	INFO	Listening on port 41805
+Read port: 41805
+1652529050355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652529058802	Marionette	INFO	Stopped listening on port 41805
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PWebSocket::Msg_OnStop) Channel closing: too late to send/recv, messages will be lost
+
+1652529186144	geckodriver	INFO	Listening on 127.0.0.1:39643
+1652529186150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "32943" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiue5RR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529186545	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiue5RR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32943/devtools/browser/e5f05192-8ac5-44c8-a6a4-c589a9ad7ec2
+1652529187728	Marionette	INFO	Listening on port 34549
+Read port: 34549
+1652529187780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652529187807	geckodriver	INFO	Listening on 127.0.0.1:59021
+1652529188315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59379" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile38bOkd"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529188747	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile38bOkd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59379/devtools/browser/5e19e070-341d-46c9-a890-60c523744a7b
+1652529190026	Marionette	INFO	Listening on port 46165
+Read port: 46165
+1652529190197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652529203279	Marionette	INFO	Stopped listening on port 46165
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652529230532	geckodriver	INFO	Listening on 127.0.0.1:57281
+1652529230538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39057" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilektM11i"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529230952	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilektM11i/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39057/devtools/browser/78b7a131-b619-4929-91d9-0e0f16bbc323
+1652529232253	Marionette	INFO	Listening on port 46171
+Read port: 46171
+1652529232444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652529232483	geckodriver	INFO	Listening on 127.0.0.1:56867
+1652529232990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59847" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZMJNRd"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529233443	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZMJNRd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59847/devtools/browser/482d016e-c3dd-4a28-af75-190ab87c796a
+1652529234617	Marionette	INFO	Listening on port 41195
+Read port: 41195
+1652529234716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652529243296	Marionette	INFO	Stopped listening on port 41195
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652529421629	geckodriver	INFO	Listening on 127.0.0.1:57459
+1652529421634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46737" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLwzBk3"
+[GFX1-]: More than 2 GPUs detected via PCI, secondary GPU is arbitrary
+1652529447409	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLwzBk3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46737/devtools/browser/b54cfebd-881c-40bb-afa7-a8e81265607c
+1652529448823	Marionette	INFO	Listening on port 40153
+Read port: 40153
+1652529448896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652529448927	geckodriver	INFO	Listening on 127.0.0.1:56421
+1652529449435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileS94K87"
+1652529468625	Marionette	INFO	Stopped listening on port 40153
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652529476627	geckodriver	INFO	Listening on 127.0.0.1:52721
+1652529476633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43823" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFCs4XY"
+[GFX1-]: More than 2 GPUs detected via PCI, secondary GPU is arbitrary
+1652529502303	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFCs4XY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43823/devtools/browser/a2f1341a-53c1-4c41-be48-23d3fb8b27e8
+1652529503543	Marionette	INFO	Listening on port 37709
+Read port: 37709
+1652529503591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652529503627	geckodriver	INFO	Listening on 127.0.0.1:54693
+1652529504136	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJj8zJC"
+[GFX1-]: More than 2 GPUs detected via PCI, secondary GPU is arbitrary
+1652529529785	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJj8zJC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35975/devtools/browser/365612cc-3e0e-498d-932f-2f99581e4ff2
+1652529531141	Marionette	INFO	Listening on port 34141
+Read port: 34141
+1652529531257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652529539622	Marionette	INFO	Stopped listening on port 34141
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652529609170	Marionette	INFO	Stopped listening on port 37709
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652529938165	geckodriver	INFO	Listening on 127.0.0.1:58995
+1652529938172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefWP6eI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529938611	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefWP6eI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54367/devtools/browser/d7913c93-5e94-46db-b524-9307027541df
+1652529939841	Marionette	INFO	Listening on port 35043
+Read port: 35043
+1652529939898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652529939924	geckodriver	INFO	Listening on 127.0.0.1:59029
+1652529940432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "57431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0Xa2ou"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652529940857	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0Xa2ou/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57431/devtools/browser/68c17169-9575-4a72-8406-3a89fb72da4f
+1652529942222	Marionette	INFO	Listening on port 44687
+Read port: 44687
+1652529942306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652529950487	Marionette	INFO	Stopped listening on port 44687
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652530008476	geckodriver	INFO	Listening on 127.0.0.1:50737
+1652530008986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33663" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNXF3uC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530009412	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNXF3uC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33663/devtools/browser/4f1bc2b4-017a-441d-8e5d-d9ceabd6b304
+1652530010791	Marionette	INFO	Listening on port 46337
+Read port: 46337
+1652530010908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530010937	geckodriver	INFO	Listening on 127.0.0.1:38799
+1652530011444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "57745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefONSKg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530011865	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefONSKg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57745/devtools/browser/aafc8fda-f7bc-451c-83c4-b495a6006683
+1652530013013	Marionette	INFO	Listening on port 40449
+Read port: 40449
+1652530013076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652530026342	Marionette	INFO	Stopped listening on port 40449
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652530320145	geckodriver	INFO	Listening on 127.0.0.1:60981
+1652530320653	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33639" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileShnQbl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530321096	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileShnQbl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33639/devtools/browser/bf05112a-3a98-43a5-90ee-05d2aae9f4dc
+1652530322449	Marionette	INFO	Listening on port 42247
+Read port: 42247
+1652530322483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530322516	geckodriver	INFO	Listening on 127.0.0.1:40277
+1652530323024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGFYxqB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530323490	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGFYxqB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47611/devtools/browser/ec532a08-7a92-48d9-98f6-8bb42e267c58
+1652530324808	Marionette	INFO	Listening on port 46619
+Read port: 46619
+1652530324848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652530337949	Marionette	INFO	Stopped listening on port 46619
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652530383315	geckodriver	INFO	Listening on 127.0.0.1:42431
+1652530383823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekjifxe"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530384300	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekjifxe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54717/devtools/browser/7ebdba62-c80e-49f1-a02c-02b11b7a4306
+1652530385558	Marionette	INFO	Listening on port 38625
+Read port: 38625
+1652530385649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530385679	geckodriver	INFO	Listening on 127.0.0.1:57981
+1652530386186	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemG7emB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530386636	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemG7emB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52319/devtools/browser/037e1422-fd08-48af-a3cb-ed0831df32f5
+1652530387884	Marionette	INFO	Listening on port 43861
+Read port: 43861
+1652530387910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652530401148	Marionette	INFO	Stopped listening on port 43861
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652530455514	geckodriver	INFO	Listening on 127.0.0.1:46127
+1652530455524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45701" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilef7iUcq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530455986	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef7iUcq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45701/devtools/browser/b123e3e5-e7ee-4a89-95a9-4b5569742303
+1652530457322	Marionette	INFO	Listening on port 32817
+Read port: 32817
+1652530457397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530457457	geckodriver	INFO	Listening on 127.0.0.1:54571
+1652530457966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehp1hqi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530458396	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehp1hqi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39757/devtools/browser/cdd43155-ec86-4fcf-9c61-80035e43a808
+1652530459741	Marionette	INFO	Listening on port 37919
+Read port: 37919
+1652530459838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652530473261	Marionette	INFO	Stopped listening on port 37919
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652530480865	geckodriver	INFO	Listening on 127.0.0.1:58553
+1652530480871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileugUM4m"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530481301	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileugUM4m/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59691/devtools/browser/13b87c3b-56c3-4a0a-8484-aa163eac9817
+1652530482540	Marionette	INFO	Listening on port 33309
+Read port: 33309
+1652530482595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530482628	geckodriver	INFO	Listening on 127.0.0.1:45227
+1652530483136	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYLIoET"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530483598	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYLIoET/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33083/devtools/browser/915a8098-87d3-4558-a39c-b59970641af0
+1652530485035	Marionette	INFO	Listening on port 44155
+Read port: 44155
+1652530485142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652530498328	Marionette	INFO	Stopped listening on port 44155
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652530531062	geckodriver	INFO	Listening on 127.0.0.1:58365
+1652530531084	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "57479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevvLB7U"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530531566	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevvLB7U/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57479/devtools/browser/cb3dfa5e-3ec1-4da6-9833-7232987a198c
+1652530532690	Marionette	INFO	Listening on port 42861
+Read port: 42861
+1652530532718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530532749	geckodriver	INFO	Listening on 127.0.0.1:56295
+1652530533256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36833" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCx2OJA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530533734	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCx2OJA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36833/devtools/browser/5096acd0-f64c-451e-860c-8530a1031462
+1652530535132	Marionette	INFO	Listening on port 46347
+Read port: 46347
+1652530535238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1652530538812	geckodriver	INFO	Listening on 127.0.0.1:48227
+1652530538822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEIGyWQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530539279	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEIGyWQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51601/devtools/browser/84374a78-d6d1-4a08-8019-d0235d96f571
+1652530540725	Marionette	INFO	Listening on port 38363
+Read port: 38363
+1652530540845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530540897	geckodriver	INFO	Listening on 127.0.0.1:45749
+1652530541406	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiled3XjHi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530541799	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiled3XjHi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40127/devtools/browser/2b6f69c7-845b-48ef-abfd-ab40a9d73c46
+1652530543174	Marionette	INFO	Listening on port 33931
+Read port: 33931
+1652530543305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652530591796	geckodriver	INFO	Listening on 127.0.0.1:48021
+1652530591805	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55827" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYri9tM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530592263	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYri9tM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55827/devtools/browser/503133b1-0c2a-4a18-b2cf-48ab16d768f9
+1652530593656	Marionette	INFO	Listening on port 35847
+Read port: 35847
+1652530593766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652530593823	geckodriver	INFO	Listening on 127.0.0.1:44953
+1652530594332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47661" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebf4O6h"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652530594733	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebf4O6h/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47661/devtools/browser/44d924ed-441c-4aae-b32b-1e4290396893
+1652530596087	Marionette	INFO	Listening on port 33457
+Read port: 33457
+1652530596206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531018401	geckodriver	INFO	Listening on 127.0.0.1:41199
+1652531018410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43021" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCwwqEk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531018877	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCwwqEk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43021/devtools/browser/57ef0005-8b29-41a0-8a37-e38ac0a8f107
+1652531020072	Marionette	INFO	Listening on port 38825
+Read port: 38825
+1652531020131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531020179	geckodriver	INFO	Listening on 127.0.0.1:60317
+1652531020688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezmFvMY"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531021145	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezmFvMY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46305/devtools/browser/0a276810-d0a8-407e-8b71-205ac06b8def
+1652531022606	Marionette	INFO	Listening on port 38307
+Read port: 38307
+1652531022719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531064761	geckodriver	INFO	Listening on 127.0.0.1:51331
+1652531064770	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileexPC6h"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531065231	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileexPC6h/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49513/devtools/browser/5a453b7a-3bf1-49c0-8353-538e2dac13de
+1652531066611	Marionette	INFO	Listening on port 38357
+Read port: 38357
+1652531066708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531066760	geckodriver	INFO	Listening on 127.0.0.1:39461
+1652531067269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9850kO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531067683	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9850kO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44095/devtools/browser/211140b3-700a-4f7d-8aba-91a4d2bb7ee9
+1652531068945	Marionette	INFO	Listening on port 34349
+Read port: 34349
+1652531068996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531124547	geckodriver	INFO	Listening on 127.0.0.1:46797
+1652531124556	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile83zP2R"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531124998	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile83zP2R/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38529/devtools/browser/37eb0856-7762-4c63-bdad-1c871f3ee043
+1652531126188	Marionette	INFO	Listening on port 35411
+Read port: 35411
+1652531126280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531126334	geckodriver	INFO	Listening on 127.0.0.1:50475
+1652531126843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7Nk20r"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531127316	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7Nk20r/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36783/devtools/browser/37ec6df4-eafe-4ccc-908d-b3c4b33d6dfc
+1652531128636	Marionette	INFO	Listening on port 38513
+Read port: 38513
+1652531128671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531147026	geckodriver	INFO	Listening on 127.0.0.1:45753
+1652531147036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileplb6gC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531147430	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileplb6gC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51087/devtools/browser/1e6b8a1b-11bf-4d73-94fa-c7d24341b455
+1652531148581	Marionette	INFO	Listening on port 39379
+Read port: 39379
+1652531148660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531148716	geckodriver	INFO	Listening on 127.0.0.1:38291
+1652531149225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegLeAbK"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531149651	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegLeAbK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50293/devtools/browser/1df53059-3a84-40a9-bdf4-07df5d80f72e
+1652531151053	Marionette	INFO	Listening on port 44449
+Read port: 44449
+1652531151156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531202872	geckodriver	INFO	Listening on 127.0.0.1:60523
+1652531202881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileU3Y2nH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531203319	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU3Y2nH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33783/devtools/browser/416c591d-39a7-43a8-9485-3dc5ebdf1557
+1652531204538	Marionette	INFO	Listening on port 46529
+Read port: 46529
+1652531204612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531204675	geckodriver	INFO	Listening on 127.0.0.1:57231
+1652531205183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55573" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXTPOII"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531205641	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXTPOII/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55573/devtools/browser/743829b5-88b5-4796-a827-8ee951fda03a
+1652531206909	Marionette	INFO	Listening on port 42495
+Read port: 42495
+1652531207071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531215033	Marionette	INFO	Stopped listening on port 42495
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652531235805	geckodriver	INFO	Listening on 127.0.0.1:60815
+1652531235815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40023" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexuGO6B"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531236286	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexuGO6B/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40023/devtools/browser/04a8f95b-4878-4b49-8d72-5e478e2321bf
+1652531237469	Marionette	INFO	Listening on port 43231
+Read port: 43231
+1652531237546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531237603	geckodriver	INFO	Listening on 127.0.0.1:42445
+1652531238113	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile88fCvb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531238582	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile88fCvb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50669/devtools/browser/515037fa-656e-46b3-a020-9ac0be55bccb
+1652531239909	Marionette	INFO	Listening on port 43831
+Read port: 43831
+1652531239939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531249247	Marionette	INFO	Stopped listening on port 43831
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652531310413	geckodriver	INFO	Listening on 127.0.0.1:60757
+1652531310423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledK8LHx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531310873	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledK8LHx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38189/devtools/browser/831fd5c1-4a19-44d5-bc63-42a76962959d
+1652531312153	Marionette	INFO	Listening on port 43389
+Read port: 43389
+1652531312303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531312370	geckodriver	INFO	Listening on 127.0.0.1:38875
+1652531312879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiles64HCw"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531313354	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles64HCw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53585/devtools/browser/23f47308-fb4b-4b66-a1b5-f2d8a6491e38
+1652531314727	Marionette	INFO	Listening on port 39247
+Read port: 39247
+1652531314874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531351855	geckodriver	INFO	Listening on 127.0.0.1:44429
+1652531351866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZRWG7b"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531352364	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZRWG7b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45977/devtools/browser/252a4605-8c13-449c-b04a-835b3ca1cf49
+1652531353553	Marionette	INFO	Listening on port 34671
+Read port: 34671
+1652531353602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531353652	geckodriver	INFO	Listening on 127.0.0.1:55239
+1652531354159	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyOEWHs"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531354581	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyOEWHs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38299/devtools/browser/ea970cd1-027e-4268-9cab-5ef6473774e2
+1652531355789	Marionette	INFO	Listening on port 37981
+Read port: 37981
+1652531355886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531571613	geckodriver	INFO	Listening on 127.0.0.1:33113
+1652531571622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7EEht7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531572061	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7EEht7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56973/devtools/browser/2eed4e29-a7b0-4189-9914-f5c810696dd0
+1652531573178	Marionette	INFO	Listening on port 45053
+Read port: 45053
+1652531573244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531573295	geckodriver	INFO	Listening on 127.0.0.1:48971
+1652531573805	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44081" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGlrAJL"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531574220	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGlrAJL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44081/devtools/browser/3ce4f8bc-b0ef-4f15-a0a7-b925e77b9a96
+1652531575538	Marionette	INFO	Listening on port 45123
+Read port: 45123
+1652531575680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531595934	geckodriver	INFO	Listening on 127.0.0.1:54651
+1652531595943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51499" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNgms5a"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531596342	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNgms5a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51499/devtools/browser/9fa44c6b-153c-401a-ab84-4bdf689cffde
+1652531597635	Marionette	INFO	Listening on port 36895
+Read port: 36895
+1652531597666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531597723	geckodriver	INFO	Listening on 127.0.0.1:52667
+1652531598233	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePd0Fjt"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531598667	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePd0Fjt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58609/devtools/browser/c2f04ce7-6971-431d-b36f-c7ae7af77860
+1652531599803	Marionette	INFO	Listening on port 32919
+Read port: 32919
+1652531599853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531633651	geckodriver	INFO	Listening on 127.0.0.1:45051
+1652531633660	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52769" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3QX7pS"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531634115	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3QX7pS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52769/devtools/browser/2da41368-65b5-4f2c-805b-038234789f9e
+1652531635456	Marionette	INFO	Listening on port 38501
+Read port: 38501
+1652531635483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531635555	geckodriver	INFO	Listening on 127.0.0.1:49593
+1652531636064	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "42171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0P5jYT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531636531	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0P5jYT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42171/devtools/browser/716bb890-fc6a-430e-a115-d46b49f87070
+1652531637755	Marionette	INFO	Listening on port 46687
+Read port: 46687
+1652531637783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531651449	Marionette	INFO	Stopped listening on port 46687
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652531723179	geckodriver	INFO	Listening on 127.0.0.1:40635
+1652531723188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileONVBFa"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531723644	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileONVBFa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55685/devtools/browser/f52b8ae7-f83b-4ea8-8281-2fecbd69f95b
+1652531724961	Marionette	INFO	Listening on port 39599
+Read port: 39599
+1652531725016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531725069	geckodriver	INFO	Listening on 127.0.0.1:39185
+1652531725579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileangiyx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531726025	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileangiyx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54411/devtools/browser/4922fee5-75fd-44e2-9c0b-702fb654d51d
+1652531727369	Marionette	INFO	Listening on port 38539
+Read port: 38539
+1652531727401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531752129	Marionette	INFO	Stopped listening on port 38539
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652531813179	geckodriver	INFO	Listening on 127.0.0.1:53187
+1652531813188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7rFdhj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531813638	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7rFdhj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51743/devtools/browser/3572f189-6db4-46b3-a745-e830fdc292e7
+1652531814850	Marionette	INFO	Listening on port 46787
+Read port: 46787
+1652531814912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531814963	geckodriver	INFO	Listening on 127.0.0.1:43553
+1652531815472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexxWwBU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531815931	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexxWwBU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38199/devtools/browser/ab381255-7b06-43af-9302-8b97930756a6
+1652531817371	Marionette	INFO	Listening on port 40381
+Read port: 40381
+1652531817482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531933660	geckodriver	INFO	Listening on 127.0.0.1:56001
+1652531933670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5iJr0O"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531934125	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5iJr0O/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50539/devtools/browser/11931082-1baf-490a-9079-adf2f47a0caa
+1652531935414	Marionette	INFO	Listening on port 33661
+Read port: 33661
+1652531935495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531935541	geckodriver	INFO	Listening on 127.0.0.1:42977
+1652531936051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46411" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileulnPnN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531936445	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileulnPnN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46411/devtools/browser/afde9fec-7ae2-49c2-abd5-2f12c7b06273
+1652531937639	Marionette	INFO	Listening on port 37199
+Read port: 37199
+1652531937672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652531985070	geckodriver	INFO	Listening on 127.0.0.1:41515
+1652531985079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDdRUxD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531985480	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDdRUxD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47243/devtools/browser/a26b7bb9-e288-49df-805a-136521a478f0
+1652531986583	Marionette	INFO	Listening on port 44117
+Read port: 44117
+1652531986713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652531986770	geckodriver	INFO	Listening on 127.0.0.1:55079
+1652531987279	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNjpAmC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652531987695	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNjpAmC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37587/devtools/browser/4f8bd39f-de9b-4564-bb10-4ad18cc316e2
+1652531989045	Marionette	INFO	Listening on port 39201
+Read port: 39201
+1652531989118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652532145689	Marionette	INFO	Stopped listening on port 39201
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652532180835	geckodriver	INFO	Listening on 127.0.0.1:55321
+1652532180845	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6Ztz83"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532181250	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6Ztz83/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46319/devtools/browser/4ef31f17-48ec-405a-8504-60e23bbb1f49
+1652532182584	Marionette	INFO	Listening on port 38671
+Read port: 38671
+1652532182713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652532182773	geckodriver	INFO	Listening on 127.0.0.1:51165
+1652532183282	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFH8ydJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532183694	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFH8ydJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51683/devtools/browser/b896d054-121b-47ab-a208-d125affab51d
+1652532184819	Marionette	INFO	Listening on port 39533
+Read port: 39533
+1652532184918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652532214279	Marionette	INFO	Stopped listening on port 39533
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652532275772	geckodriver	INFO	Listening on 127.0.0.1:34297
+1652532275785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegFicjf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532276239	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegFicjf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40439/devtools/browser/c350c76c-8081-4bad-a0f3-60eadfdb9deb
+1652532277429	Marionette	INFO	Listening on port 46455
+Read port: 46455
+1652532277529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652532277586	geckodriver	INFO	Listening on 127.0.0.1:51189
+1652532278096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35221" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI0f1Bo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532278551	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI0f1Bo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35221/devtools/browser/ca89f53e-f320-46ad-9193-356f3c8acb2f
+1652532279758	Marionette	INFO	Listening on port 43917
+Read port: 43917
+1652532279828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652532311447	Marionette	INFO	Stopped listening on port 43917
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652532358361	geckodriver	INFO	Listening on 127.0.0.1:57023
+1652532358372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3bh3tU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532358829	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3bh3tU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58179/devtools/browser/2692475c-d8ca-4dee-8dbd-f49399b187a4
+1652532360030	Marionette	INFO	Listening on port 40773
+Read port: 40773
+1652532360096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652532360153	geckodriver	INFO	Listening on 127.0.0.1:36547
+1652532360662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50485" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileattvEx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532361117	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileattvEx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50485/devtools/browser/545944c3-68a6-4a43-aa35-f619d3efc502
+1652532362505	Marionette	INFO	Listening on port 33237
+Read port: 33237
+1652532362605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652532391423	Marionette	INFO	Stopped listening on port 33237
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652532448444	geckodriver	INFO	Listening on 127.0.0.1:36365
+1652532448450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50059" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile50Ns3w"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532448855	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile50Ns3w/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50059/devtools/browser/e14f2b83-56de-4187-8dcd-0d65e8cae6c3
+1652532450140	Marionette	INFO	Listening on port 42895
+Read port: 42895
+1652532450171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652532450203	geckodriver	INFO	Listening on 127.0.0.1:34313
+1652532450711	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40361" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePXH2OK"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532451119	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePXH2OK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40361/devtools/browser/3bc2bea9-26b8-4bb0-aa03-d405d80a935c
+1652532452370	Marionette	INFO	Listening on port 36879
+Read port: 36879
+1652532452437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652532471528	Marionette	INFO	Stopped listening on port 36879
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652532499211	geckodriver	INFO	Listening on 127.0.0.1:38559
+1652532499217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45233" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewLKJvQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532499637	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewLKJvQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45233/devtools/browser/47ad720a-d2ed-4e0d-acfd-22d1a18049a3
+1652532500998	Marionette	INFO	Listening on port 37805
+Read port: 37805
+1652532501109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652532501141	geckodriver	INFO	Listening on 127.0.0.1:32907
+1652532501649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemVDMqb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532502064	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemVDMqb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36099/devtools/browser/ee134057-ff95-4bad-bfa7-963278fa6983
+1652532503382	Marionette	INFO	Listening on port 42013
+Read port: 42013
+1652532503535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652532517211	Marionette	INFO	Stopped listening on port 42013
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652532517952	geckodriver	INFO	Listening on 127.0.0.1:33433
+1652532517958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3L7Gqh"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532518391	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3L7Gqh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50865/devtools/browser/bcfc0f50-b3ea-49e7-9b58-3c3fd715e859
+1652532519755	Marionette	INFO	Listening on port 35777
+Read port: 35777
+1652532519864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652532519912	geckodriver	INFO	Listening on 127.0.0.1:43445
+1652532520419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileT6ESBe"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: eglCreateContext returned an error
+[GFX1-]: More than 1 GPU vendor detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x10de/0x1e04
+[GFX1-]: PCI candidate 0x1a03/0x2000
+1652532520827	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT6ESBe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45099/devtools/browser/0bbc0741-08de-444d-b17d-fb6b2d51f4af
+1652532522106	Marionette	INFO	Listening on port 43651
+Read port: 43651
+1652532522147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.semanticscholar.org"
+1652532535666	Marionette	INFO	Stopped listening on port 43651
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
