@@ -17,6 +17,8 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.common.action_chains import ActionChains
+
 
 import requests
 import tqdm
@@ -170,30 +172,32 @@ class SemanticScholarScrapper(object):
         if call_browser:
             self._start_browser()
 
-        try:
-            self._search_paper_by_name(paper_title)
-            self._open_first_link_in_search_page()
+        # try:
+        self._search_paper_by_name(paper_title)
+        # self._open_first_link_in_search_page()
 
-            # self._check_paper_page(paper_title)
+        # self._check_paper_page(paper_title)
 
-            abstract = self._get_abstract_in_paper_page()
-            # topic_dict = self._get_topics_in_paper_page()
-            # bibtex_citation = self._get_bibtex_citation()
-            # attributes_dict = self._get_paper_json_by_id(self._get_paper_id_from_current_url())
-            attributes_dict = {}
+        abstract = self._get_abstract()
+        # abstract = self._get_abstract_in_paper_page()
+        # topic_dict = self._get_topics_in_paper_page()
+        # bibtex_citation = self._get_bibtex_citation()
+        # attributes_dict = self._get_paper_json_by_id(self._get_paper_id_from_current_url())
+        attributes_dict = {}
 
-            attributes_dict['abstract'] = abstract
-            # attributes_dict['topics'] = topic_dict
-            # attributes_dict['bibtex_citation'] = bibtex_citation
+        attributes_dict['abstract'] = abstract
+        # attributes_dict['topics'] = topic_dict
+        # attributes_dict['bibtex_citation'] = bibtex_citation
 
-            if call_browser:
-                self._close_browser()
-
-        except FirstPaperDifferentError:
+        if call_browser:
             self._close_browser()
 
-        finally:
-            return attributes_dict
+        # except FirstPaperDifferentError:
+        #     self._close_browser()
+
+        # finally:
+        #     return attributes_dict
+        return attributes_dict
 
     def _check_paper_page(self, paper_title):
         """
@@ -293,6 +297,63 @@ class SemanticScholarScrapper(object):
         abstract_text = abstract_div.text
 
         return abstract_text
+    
+    def _get_abstract(self) -> str:
+        mode = "cl-button__label"
+        mode = "Expand"
+        mode = "button" 
+        mode = "button.cl-button"
+        mode = "button.cl-button[aria-label='Expand truncated text']"
+        mode2 = "button.cl-button[aria-label='Hide truncated text']"
+        mode_next = "button.cl-button[aria-label='next page']"
+        mode_banner = "copyright-banner__dismiss.ACCPET & CONTINUE"
+        # mode = "//button[@type='Expand']"
+        # mode = "mod-clickable"
+        # more_buttons = self._web_driver.find_elements_by_class_name("mod-clickable")
+        # ele = self._web_driver.find_element_by_css_selector(mode_banner)
+        # ele = self._web_driver.find_element_by_css_selector('input[type=search]')
+        self._wait_element_by_class_name("mod-clickable")
+        tmp = self._web_driver.find_element_by_class_name("copyright-banner__dismiss")
+        tmp.click()
+        for j in range(10):
+            more_buttons = self._web_driver.find_elements_by_css_selector(mode)
+            max_num = len(more_buttons)
+            actions = ActionChains(self._web_driver)
+            # print(more_buttons)
+            abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
+            max_num = min(max_num, len(abstract_divs))
+            for i in range(max_num):
+                more_buttons = self._web_driver.find_elements_by_css_selector(mode)
+                # self._wait_element_by_class_name('button')
+                actions.move_to_element(more_buttons[i])
+                # wait.until(EC.invisibility_of_element_located((By.XPATH,
+                #   "//div[@class='blockUI blockOverlay']")))
+                # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
+                # print(len(more_buttons))
+                more_buttons[i].click()
+                # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
+                abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
+                # print(len(abstract_divs))
+                # for abstract_div in abstract_divs:
+                print(abstract_divs[i].text)    
+                # ele = self._web_driver.find_element_by_css_selector('input[type=search]')
+                # actions.move_to_element(ele).perform()
+                # more_buttons = self._web_driver.find_elements_by_css_selector('mod-clickable')
+                # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
+                # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
+                time.sleep(1)
+                more_buttons = self._web_driver.find_elements_by_css_selector(mode2)
+                # more_buttons[0].click()
+                actions.move_to_element(more_buttons[0])
+                more_buttons[0].click()
+            next_button = self._web_driver.find_element_by_css_selector(mode_next)
+            next_button.click()
+            
+            # time.sleep(1)
+        return None
+
+
+        # time.sleep(5)
 
     def _open_first_link_in_search_page(self) -> None:
         """
@@ -368,8 +429,10 @@ class SemanticScholarScrapper(object):
         # if self._headless:
         #     opt.add_argument("--headless")
         #     opt.headless = True
+
         fireFoxOptions = webdriver.FirefoxOptions()
         fireFoxOptions.headless = True
+        # self._web_driver = webdriver.Firefox(options=fireFoxOptions, executable_path='/home/dy20/geckodriver')
         self._web_driver = webdriver.Firefox(firefox_binary=binary, options=fireFoxOptions)
         # chrome_options = Options()
 
@@ -391,7 +454,7 @@ def main():
     title_list = ['oil price']
     # title_list = ['The Great Crash, The Oil Price Shock And The Unit Root Hypothesis']
     result = scrapper.scrap_paper_list_by_title(paper_title_list=title_list)
-    print(result)
+    # print(result)
     # TODO
     pass
 
