@@ -325,34 +325,38 @@ class SemanticScholarScrapper(object):
             abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
             max_num = min(max_num, len(abstract_divs))
             for i in range(max_num):
-                more_buttons = self._web_driver.find_elements_by_css_selector(mode)
-                # self._wait_element_by_class_name('button')
-                actions.move_to_element(more_buttons[i])
-                # wait.until(EC.invisibility_of_element_located((By.XPATH,
-                #   "//div[@class='blockUI blockOverlay']")))
-                # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
-                # print(len(more_buttons))
-                more_buttons[i].click()
-                # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
-                abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
-                # print(len(abstract_divs))
-                # for abstract_div in abstract_divs:
-                # print(abstract_divs[i].text)    
-                abstract_dict[j*10+i] = abstract_divs[i]
-                # ele = self._web_driver.find_element_by_css_selector('input[type=search]')
-                # actions.move_to_element(ele).perform()
-                # more_buttons = self._web_driver.find_elements_by_css_selector('mod-clickable')
-                # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
-                # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
-                time.sleep(1)
-                more_buttons = self._web_driver.find_elements_by_css_selector(mode2)
-                # more_buttons[0].click()
-                actions.move_to_element(more_buttons[0])
-                more_buttons[0].click()
+                try:
+                    more_buttons = self._web_driver.find_elements_by_css_selector(mode)
+                    # self._wait_element_by_class_name('button')
+                    actions.move_to_element(more_buttons[i])
+                    # wait.until(EC.invisibility_of_element_located((By.XPATH,
+                    #   "//div[@class='blockUI blockOverlay']")))
+                    # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
+                    # print(len(more_buttons))
+                    more_buttons[i].click()
+                    # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
+                    abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
+                    # print(len(abstract_divs))
+                    # for abstract_div in abstract_divs:
+                    # print(abstract_divs[i].text)    
+                    abstract_dict[j*10+i] = abstract_divs[i].text
+                    print(j*10+i)
+                    # ele = self._web_driver.find_element_by_css_selector('input[type=search]')
+                    # actions.move_to_element(ele).perform()
+                    # more_buttons = self._web_driver.find_elements_by_css_selector('mod-clickable')
+                    # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
+                    # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
+                    time.sleep(1)
+                    more_buttons = self._web_driver.find_elements_by_css_selector(mode2)
+                    # more_buttons[0].click()
+                    actions.move_to_element(more_buttons[0])
+                    more_buttons[0].click()
+                except:
+                    pass
             next_button = self._web_driver.find_element_by_css_selector(mode_next)
             next_button.click()
-            
-            # time.sleep(1)
+
+                # time.sleep(1)
         json.dump(abstract_dict, open('oil.json','w'))
         return None
 
