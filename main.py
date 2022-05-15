@@ -305,7 +305,9 @@ class SemanticScholarScrapper(object):
         mode = "button.cl-button"
         mode = "button.cl-button[aria-label='Expand truncated text']"
         mode2 = "button.cl-button[aria-label='Hide truncated text']"
-        mode_next = "button.cl-button[aria-label='next page']"
+        abstract_dict = {}
+        mode_next = "div.cl-pager__button[aria-label='next page']"
+        more_buttons = self._web_driver.find_elements_by_css_selector(mode_next)
         mode_banner = "copyright-banner__dismiss.ACCPET & CONTINUE"
         # mode = "//button[@type='Expand']"
         # mode = "mod-clickable"
@@ -335,7 +337,8 @@ class SemanticScholarScrapper(object):
                 abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
                 # print(len(abstract_divs))
                 # for abstract_div in abstract_divs:
-                print(abstract_divs[i].text)    
+                # print(abstract_divs[i].text)    
+                abstract_dict[j*10+i] = abstract_divs[i]
                 # ele = self._web_driver.find_element_by_css_selector('input[type=search]')
                 # actions.move_to_element(ele).perform()
                 # more_buttons = self._web_driver.find_elements_by_css_selector('mod-clickable')
@@ -350,6 +353,7 @@ class SemanticScholarScrapper(object):
             next_button.click()
             
             # time.sleep(1)
+        json.dump(abstract_dict, open('oil.json','w'))
         return None
 
 
