@@ -23,7 +23,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 import requests
 import tqdm
 import time
-
+json_name = 'gas.json'
 
 class SemanticScholarScrapper(object):
     """
@@ -362,13 +362,13 @@ class SemanticScholarScrapper(object):
                     print('no next page')
                     break
         except KeyboardInterrupt as e:
-            json.dump(abstract_dict, open('oil.json','w'))
+            json.dump(abstract_dict, open(json_name,'w'))
         finally:
-            json.dump(abstract_dict, open('oil.json','w'))
+            json.dump(abstract_dict, open(json_name,'w'))
 
 
                 # time.sleep(1)
-        json.dump(abstract_dict, open('oil.json','w'))
+        json.dump(abstract_dict, open(json_name,'w'))
         return None
 
 
@@ -450,7 +450,7 @@ class SemanticScholarScrapper(object):
         #     opt.headless = True
 
         fireFoxOptions = webdriver.FirefoxOptions()
-        fireFoxOptions.headless = True
+        # fireFoxOptions.headless = True
         # self._web_driver = webdriver.Firefox(options=fireFoxOptions, executable_path='/home/dy20/geckodriver')
         self._web_driver = webdriver.Firefox(firefox_binary=binary, options=fireFoxOptions)
         # chrome_options = Options()
@@ -470,7 +470,7 @@ class FirstPaperDifferentError(Exception):
 
 def main():
     scrapper = SemanticScholarScrapper()
-    title_list = ['oil']
+    title_list = ['gas price']
     # title_list = ['The Great Crash, The Oil Price Shock And The Unit Root Hypothesis']
     result = scrapper.scrap_paper_list_by_title(paper_title_list=title_list)
     # print(result)
