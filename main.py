@@ -317,44 +317,55 @@ class SemanticScholarScrapper(object):
         self._wait_element_by_class_name("mod-clickable")
         tmp = self._web_driver.find_element_by_class_name("copyright-banner__dismiss")
         tmp.click()
-        for j in range(10):
-            more_buttons = self._web_driver.find_elements_by_css_selector(mode)
-            max_num = len(more_buttons)
-            actions = ActionChains(self._web_driver)
-            # print(more_buttons)
-            abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
-            max_num = min(max_num, len(abstract_divs))
-            for i in range(max_num):
+        try:
+            for j in range(10000):
+                print('page ',j)
+                more_buttons = self._web_driver.find_elements_by_css_selector(mode)
+                max_num = len(more_buttons)
+                actions = ActionChains(self._web_driver)
+                # print(more_buttons)
+                abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
+                max_num = min(max_num, len(abstract_divs))
+                for i in range(max_num):
+                    try:
+                        more_buttons = self._web_driver.find_elements_by_css_selector(mode)
+                        # self._wait_element_by_class_name('button')
+                        actions.move_to_element(more_buttons[i])
+                        # wait.until(EC.invisibility_of_element_located((By.XPATH,
+                        #   "//div[@class='blockUI blockOverlay']")))
+                        # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
+                        # print(len(more_buttons))
+                        more_buttons[i].click()
+                        # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
+                        abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
+                        # print(len(abstract_divs))
+                        # for abstract_div in abstract_divs:
+                        # print(abstract_divs[i].text)    
+                        abstract_dict[j*10+i] = abstract_divs[i].text
+                        print(j*10+i)
+                        # ele = self._web_driver.find_element_by_css_selector('input[type=search]')
+                        # actions.move_to_element(ele).perform()
+                        # more_buttons = self._web_driver.find_elements_by_css_selector('mod-clickable')
+                        # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
+                        # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
+                        more_buttons = self._web_driver.find_elements_by_css_selector(mode2)
+                        # more_buttons[0].click()
+                        actions.move_to_element(more_buttons[0])
+                        more_buttons[0].click()
+                    except:
+                        pass
                 try:
-                    more_buttons = self._web_driver.find_elements_by_css_selector(mode)
-                    # self._wait_element_by_class_name('button')
-                    actions.move_to_element(more_buttons[i])
-                    # wait.until(EC.invisibility_of_element_located((By.XPATH,
-                    #   "//div[@class='blockUI blockOverlay']")))
-                    # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
-                    # print(len(more_buttons))
-                    more_buttons[i].click()
-                    # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
-                    abstract_divs = self._web_driver.find_elements_by_class_name('cl-paper-abstract')
-                    # print(len(abstract_divs))
-                    # for abstract_div in abstract_divs:
-                    # print(abstract_divs[i].text)    
-                    abstract_dict[j*10+i] = abstract_divs[i].text
-                    print(j*10+i)
-                    # ele = self._web_driver.find_element_by_css_selector('input[type=search]')
-                    # actions.move_to_element(ele).perform()
-                    # more_buttons = self._web_driver.find_elements_by_css_selector('mod-clickable')
-                    # more_buttons = self._web_driver.find_elements_by_class_name('mod-clickable')
-                    # self._web_driver.execute_script("arguments[0].click();", more_buttons[i])
-                    time.sleep(1)
-                    more_buttons = self._web_driver.find_elements_by_css_selector(mode2)
-                    # more_buttons[0].click()
-                    actions.move_to_element(more_buttons[0])
-                    more_buttons[0].click()
+                    next_button = self._web_driver.find_element_by_css_selector(mode_next)
+                    next_button.click()
+                    print('next page')
                 except:
-                    pass
-            next_button = self._web_driver.find_element_by_css_selector(mode_next)
-            next_button.click()
+                    print('no next page')
+                    break
+        except KeyboardInterrupt as e:
+            json.dump(abstract_dict, open('oil.json','w'))
+        finally:
+            json.dump(abstract_dict, open('oil.json','w'))
+
 
                 # time.sleep(1)
         json.dump(abstract_dict, open('oil.json','w'))
@@ -459,7 +470,7 @@ class FirstPaperDifferentError(Exception):
 
 def main():
     scrapper = SemanticScholarScrapper()
-    title_list = ['oil price']
+    title_list = ['oil']
     # title_list = ['The Great Crash, The Oil Price Shock And The Unit Root Hypothesis']
     result = scrapper.scrap_paper_list_by_title(paper_title_list=title_list)
     # print(result)
